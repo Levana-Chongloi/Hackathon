@@ -1,0 +1,74 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+
+  li {
+    float: left;
+    
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    float: left;
+  }
+
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: rgb(234, 46, 165);
+  }
+
+  body{
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color:lightsteelblue; 
+    background-image:url("israel.jpeg")
+
+  }
+
+  img{
+    width: 1150px;
+    height: 500px;
+  }
+
+
+  .contactform{
+    border-style:outset;
+    width: 800px;
+    height: 500px;
+    margin-left: 15%;
+    background-color:whitesmoke;
+    margin-top: 10%;
+
+  
+  }
+  
+  
+  .message{
+    width: 450px;
+    height:300px;
+    margin-left: 5%;
+  }
+  
+  .btn{
+    background-color: bisque;
+    font-weight: bold;
+    margin-left: 30%;
+  }
+
+  #name {
+    margin-left: 5%;
+  }
+
+  .email{
+    margin-left: 5%;
+
+  }
+

@@ -1,0 +1,116 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+
+  li {
+    float: left;
+    
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    float: left;
+  }
+
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: rgb(234, 46, 165);
+  }
+
+  body{
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color:rgb(180, 177, 177);
+    margin-bottom: 10%;
+ 
+    
+
+  }
+
+  img{
+    width: 1150px;
+    height: 500px;
+
+  }
+
+#head{
+    font-size: xx-large;
+    font-weight: 900;
+    margin-top: 5%;
+    padding-bottom: 30px;
+    color: #f1f1f1;
+    font-weight: bolder;   
+}
+
+.flex-container{
+    display: flex;
+    padding-top: 20%;
+  
+  }
+  
+  .flex-container > div {
+      background-color: rgb(246, 159, 128); 
+      margin: 10px;
+      padding: 20px;
+      font-size: 30px;
+    
+    }
+
+img {
+    width: 200px;
+    height: 250px;
+
+}
+
+  
+  .bg-image {
+    /* The image used */
+    background-image: url("background.png");
+    
+    
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .flex-container2{
+    display: flex;
+    padding-top: 10%;
+  
+  }
+  
+  .flex-container2 > div {
+      background-color: rgb(246, 159, 128); 
+      margin: 10px;
+      padding: 20px;
+      font-size: 30px;
+    
+    }
+
+#img3{
+width: 320px;
+height: 250px;
+}
+
+#text3{
+    font-size: large;
+}
+
+#text4{
+    font-size: large;
+}
+
+#text5{
+    font-size: large;
+}
+
+
